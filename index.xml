@@ -6,8 +6,22 @@
     <description>Recent content on 我的个人博客</description>
     <generator>Hugo -- 0.154.5</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 18 Jan 2026 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 23:14:13 +0800</lastBuildDate>
     <atom:link href="https://uesssstc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robomaster Study</title>
+      <link>https://uesssstc.github.io/posts/robomaster-study/</link>
+      <pubDate>Mon, 19 Jan 2026 23:14:13 +0800</pubDate>
+      <guid>https://uesssstc.github.io/posts/robomaster-study/</guid>
+      <description>&lt;h1 id=&#34;2026年1月19日-学习记录&#34;&gt;2026年1月19日 学习记录&lt;/h1&gt;
+&lt;p&gt;今天姑且学习了一下robomaster步兵车的构成和嵌入式代码操作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;底盘 选择全向轮或者麦轮 选择好电机之后 根据运动分解编写驱动程序&lt;/li&gt;
+&lt;li&gt;云台 有yaw和pitch，依然涉及姿态解算和运动控制&lt;/li&gt;
+&lt;li&gt;发射结构 选择摩擦轮 ，因为单发装填所以不需要复杂的供弹机构。&lt;/li&gt;
+&lt;li&gt;有了ai协助不需要多在意代码编写 但是需要我自己注意美观度和鲁棒性&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>又修复了一次bug</title>
       <link>https://uesssstc.github.io/posts/debug/</link>
