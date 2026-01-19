@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>我的个人博客</title>
+    <link>https://uesssstc.github.io/</link>
+    <description>Recent content on 我的个人博客</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 18 Jan 2026 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://uesssstc.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>又修复了一次bug</title>
+      <link>https://uesssstc.github.io/posts/debug/</link>
+      <pubDate>Sun, 18 Jan 2026 22:00:00 +0800</pubDate>
+      <guid>https://uesssstc.github.io/posts/debug/</guid>
+      <description>&lt;h1 id=&#34;2026年1月19日-学习记录&#34;&gt;2026年1月19日 学习记录&lt;/h1&gt;
+&lt;p&gt;在local host做了可行的音乐播放 ，在push的时候出了奇怪的问题
+网站的css渲染和js动效全部丢失
+然后跟着gemini修 成功把网站404了
+所以其实现在我回退到了一个靠谱点的时间线 相应的 两篇帖子也丢失了
+这次开发之后感觉要做好backup，比如css的路径，f12检查，这这那那的
+希望你们能看到音乐播放按钮吧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的编程学习笔记：拆解 HTML 与 Python 自动化</title>
+      <link>https://uesssstc.github.io/posts/learning-today/</link>
+      <pubDate>Sun, 18 Jan 2026 22:00:00 +0800</pubDate>
+      <guid>https://uesssstc.github.io/posts/learning-today/</guid>
+      <description>&lt;h1 id=&#34;2026年1月18日-学习记录&#34;&gt;2026年1月18日 学习记录&lt;/h1&gt;
+&lt;p&gt;今天我没有只是停留在“看”网页，而是把网页拆开了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;HTML 与 CSS&lt;/strong&gt;：我理解了 &lt;code&gt;h1&lt;/code&gt; 和 &lt;code&gt;p&lt;/code&gt; 是零件，CSS 是涂装。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文件真相&lt;/strong&gt;：我通过 Python 看到 &lt;code&gt;.md&lt;/code&gt; 文件并不是纯文本，它由 &lt;code&gt;+++&lt;/code&gt; 包裹的 &lt;strong&gt;Front Matter&lt;/strong&gt;（元数据）和正文组成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;正则与解析&lt;/strong&gt;：我明白了程序如何通过“模式匹配”来从一堆乱码中精准抠出我要的信息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;路径与 IO&lt;/strong&gt;：我解决了 Python 找不到文件的报错，理解了“工作目录”的概念。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;：网页不是死的内容，它是数据经过逻辑处理后的产物。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>https://uesssstc.github.io/posts/hello/</link>
+      <pubDate>Sat, 17 Jan 2026 23:04:12 +0800</pubDate>
+      <guid>https://uesssstc.github.io/posts/hello/</guid>
+      <description>&lt;p&gt;开始写个人博客了 请多指教&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
