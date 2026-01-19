@@ -269,6 +269,48 @@ HTML 与 CSS：我理解了 h1 和 p 是零件，CSS 是涂装。 文件真相�
         const box = document.getElementById('photo-box');
         box.style.display = (box.style.display === 'none') ? 'block' : 'none';
     });
+</script>
+
+<div style="text-align: center; margin: 20px 0; font-family: inherit;">
+    <button id="like-btn" style="background: none; border: 1px solid #777; padding: 8px 20px; border-radius: 25px; cursor: pointer; color: #777; transition: all 0.3s;">
+        <span id="like-icon">❤</span> <span id="like-text">赞一个</span> <span id="like-count" style="margin-left: 5px;">0</span>
+    </button>
+</div>
+
+<script>
+    (function() {
+        const btn = document.getElementById('like-btn');
+        const countSpan = document.getElementById('like-count');
+        const textSpan = document.getElementById('like-text');
+        const storageKey = 'like_' + window.location.pathname;
+
+        
+        let count = parseInt(localStorage.getItem(storageKey) || "0");
+        countSpan.innerText = count;
+
+        if (localStorage.getItem(storageKey + '_clicked')) {
+            setLikedStyle();
+        }
+
+        btn.onclick = function() {
+            if (!localStorage.getItem(storageKey + '_clicked')) {
+                count++;
+                localStorage.setItem(storageKey, count);
+                localStorage.setItem(storageKey + '_clicked', 'true');
+                countSpan.innerText = count;
+                setLikedStyle();
+                
+                btn.style.transform = "scale(1.1)";
+                setTimeout(() => btn.style.transform = "scale(1)", 200);
+            }
+        };
+
+        function setLikedStyle() {
+            btn.style.color = "#e74c3c";
+            btn.style.borderColor = "#e74c3c";
+            textSpan.innerText = "已赞";
+        }
+    })();
 </script></body>
 
 </html>
